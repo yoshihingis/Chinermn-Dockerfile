@@ -1,7 +1,7 @@
 FROM nvidia/cuda:8.0-cudnn5-devel-ubuntu14.04
 
-ENV http_proxy http://g3.konicaminolta.jp:8080
-ENV https_proxy https://g3.konicaminolta.jp:8080
+ENV http_proxy your company proxy
+ENV https_proxy your company proxy
 
 RUN apt-get update && apt-get install -y --no-install-recommends nano \
         openssh-server \
