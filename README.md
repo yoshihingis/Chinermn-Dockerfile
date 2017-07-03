@@ -3,10 +3,10 @@ This Dockerfile is base on beta release ChainerMN ny PFU.
 
 (1)Usage
  1.At first,please build dockerfile
-   nvidia-docker build -t chainermn:0 .
+   :nvidia-docker build -t chainermn:0 .
    
  2.If Build will be finished with No problems, please start up dokcer container.
-   nvidia-docker run --rm -it chainermn:0
+   :nvidia-docker run --rm -it chainermn:0
   
  3.If Container will start ,you will on directory /home/py34 on th container.
  
