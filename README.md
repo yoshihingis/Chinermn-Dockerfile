@@ -1,5 +1,5 @@
 # Chinermn-Dockerfile
-This Dockerfile is base on beta release ChainerMN ny PFU.
+This Dockerfile is base on beta release ChainerMN ny PFN.
 
 (1)Usage
  1.At first,please build dockerfile
@@ -18,6 +18,6 @@ This Dockerfile is base on beta release ChainerMN ny PFU.
     
     ※Caution
       1.train_imagnet.py supports only GPU mode , not CPU mode.
-      2.Somtimes train_imagnet wull be crash and stopeed by Error.
+      2.Somtimes train_imagnet will be crash and stopeed by Error.
        This problem happens by using both Open-MPI and Pyhton.
-       Now PFU is trying to delete this issue.
+       Now PFN is trying to delete this issue.
